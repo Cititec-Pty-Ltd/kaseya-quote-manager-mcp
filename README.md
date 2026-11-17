@@ -1,3 +1,6 @@
+> **Cititec fork** of [WYRE-AI/kaseya-quote-manager-mcp](https://github.com/WYRE-AI/kaseya-quote-manager-mcp). Before changing anything, read
+> [CITITEC-FORK.md](CITITEC-FORK.md): which changes go back to Wyre and which stay in this fork.
+
 # Kaseya Quote Manager MCP Server
 
 [![Build Status](https://github.com/WYRE-AI/kaseya-quote-manager-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/WYRE-AI/kaseya-quote-manager-mcp/actions/workflows/release.yml)
