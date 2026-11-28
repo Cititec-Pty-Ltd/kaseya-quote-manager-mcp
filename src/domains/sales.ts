@@ -9,14 +9,14 @@ function getTools(): Tool[] {
     {
       name: 'kqm_quote_full',
       description:
-        'Get one quote with all its sections and line items in one call, by quote number (for example "CQT14928") ' +
+        'Get one quote with all its sections and line items in one call, by quote number (for example "Q-1001") ' +
         'or by numeric quote id. Use this to read or summarise a quote: kqm_quote_get needs the numeric id, and ' +
         'line items otherwise have to be listed section by section. Section titles are returned as plain text. Read-only.',
       annotations: { readOnlyHint: true, openWorldHint: true },
       inputSchema: {
         type: 'object' as const,
         properties: {
-          quoteNumber: { type: 'string', description: 'The quote number people use, for example "CQT14928"' },
+          quoteNumber: { type: 'string', description: 'The quote number people use, for example "Q-1001"' },
           id: { type: 'number', description: 'The numeric quote id (alternative to quoteNumber)' },
         },
       },
