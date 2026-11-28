@@ -102,7 +102,7 @@ Tools are named `kqm_<entity>_list` and `kqm_<entity>_get`.
 entity-specific filters (e.g. `quoteNumber`, `customerID`, `purchaseOrderID`).
 
 `kqm_quote_full` reads one quote with all its sections and line items in a single call, by quote
-number (for example `CQT14928`) or numeric id, with section titles as plain text.
+number (for example `Q-1001`) or numeric id, with section titles as plain text.
 
 ## Usage example
 
@@ -111,7 +111,7 @@ kqm_navigate { "domain": "sales" }
 kqm_quote_list { "page": 1, "pageSize": 50 }
 kqm_quote_get { "id": 12345 }
 kqm_quote_section_list { "quoteID": 12345 }
-kqm_quote_full { "quoteNumber": "CQT14928" }
+kqm_quote_full { "quoteNumber": "Q-1001" }
 ```
 
 ## Docker
